@@ -1,0 +1,48 @@
+.container {
+    padding: 0 2rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.navbar input, .navbar select{
+    border: none;
+    outline: none;
+    height: 50px;
+    padding: 4px 12px;
+    font-size: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color: #9c9c9c;
+}
+
+#category{
+    border-radius: 16px 0 0 16px;
+}
+
+.navbar input[type="submit"]{
+    cursor: pointer;
+    background: #aa0e1c;
+    border-radius: 0 16px 16px 0;
+    color: #ffffff;
+    outline: none;
+}
+
+.post{
+    background: #aa0e1c;
+    border-radius: 8px;
+}
+
+.post button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #ffffff;
+    padding: 4px 12px;
+    line-height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+

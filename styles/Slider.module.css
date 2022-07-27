@@ -1,0 +1,34 @@
+.container {
+    padding: 0 2rem;
+    margin: 2rem 0;
+}
+
+.slideCardItem{
+    width: 210px;
+    height: 210px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cardImg{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: #42D2CF;
+    border-width: 2px 4px;
+    
+    padding: 8px; 
+    line-height: 180px;
+}
+
+.cardImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.slideCardItem h3{
+    color: #999;
+}
